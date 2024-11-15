@@ -89,7 +89,9 @@ def main(project_dir_path: str):
 
     exclude_dirs = ["venv", "__pycache__"]
     packages = travel_project(project_dir_path, exclude_dirs)
-    print("\nPackages Found:")
+    print()
+    print(f"Packages Found: {len(packages)}")
+    print("---------------")
     for pack in packages:
         print(pack)
     print()    
