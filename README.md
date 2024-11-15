@@ -5,7 +5,7 @@ This script aims to find the external dependencies(python packages) of a python 
 ## Installation
 
 ```console
-curl --proto '=https' --tlsv1.2 -f https://raw.githubusercontent.com/neerajnangireddy/infer-py-packages/refs/heads/main/ipypk_install.sh | sh
+curl --proto '=https' --tlsv1.2 -H 'Cache-Control: no-cache' -f https://raw.githubusercontent.com/neerajnangireddy/infer-py-packages/refs/heads/main/ipypk_install.sh | sh
 ```
 
 ## Usage
